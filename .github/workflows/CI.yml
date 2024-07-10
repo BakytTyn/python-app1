@@ -25,4 +25,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Push image
-        run: docker push BakytTyn/python-app1:1.0
+        run: docker push BakytTyn/python-app1:1.0.0
